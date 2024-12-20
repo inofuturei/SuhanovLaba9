@@ -1,0 +1,133 @@
+\doxysection{Math\+Helper Class Reference}
+\hypertarget{class_math_helper}{}\label{class_math_helper}\index{MathHelper@{MathHelper}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_math_helper_a8f41ed5c24af2be5d9e02efc40124cbe}{Add}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Вычисляет сумму двух целых чисел. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_math_helper_a94519cf680907e09f57535d28043b353}{Subtract}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Вычисляет разность двух целых чисел. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_math_helper_a42c08ba81bca9138a86ec57ebd4858db}{Multiply}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Вычисляет произведение двух целых чисел. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_math_helper_a6580b21065edbb89a5fe294fb9f227ac}{Divide}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Вычисляет частное двух целых чисел. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_math_helper_ab320ca1cc61cd21c8984520786949326}{Power}} (double base\+Number, int exponent)
+\begin{DoxyCompactList}\small\item\em Возводит число в степень. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_math_helper_a8f41ed5c24af2be5d9e02efc40124cbe}\index{MathHelper@{MathHelper}!Add@{Add}}
+\index{Add@{Add}!MathHelper@{MathHelper}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily \label{class_math_helper_a8f41ed5c24af2be5d9e02efc40124cbe} 
+int Math\+Helper.\+Add (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Вычисляет сумму двух целых чисел. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Первое число.\\
+\hline
+{\em b} & Второе число.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Сумма двух чисел.
+\end{DoxyReturn}
+\Hypertarget{class_math_helper_a6580b21065edbb89a5fe294fb9f227ac}\index{MathHelper@{MathHelper}!Divide@{Divide}}
+\index{Divide@{Divide}!MathHelper@{MathHelper}}
+\doxysubsubsection{\texorpdfstring{Divide()}{Divide()}}
+{\footnotesize\ttfamily \label{class_math_helper_a6580b21065edbb89a5fe294fb9f227ac} 
+int Math\+Helper.\+Divide (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Вычисляет частное двух целых чисел. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Делимое.\\
+\hline
+{\em b} & Делитель.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Частное двух чисел.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Divide\+By\+Zero\+Exception} & Выбрасывается, если b равно 0.\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_math_helper_a42c08ba81bca9138a86ec57ebd4858db}\index{MathHelper@{MathHelper}!Multiply@{Multiply}}
+\index{Multiply@{Multiply}!MathHelper@{MathHelper}}
+\doxysubsubsection{\texorpdfstring{Multiply()}{Multiply()}}
+{\footnotesize\ttfamily \label{class_math_helper_a42c08ba81bca9138a86ec57ebd4858db} 
+int Math\+Helper.\+Multiply (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Вычисляет произведение двух целых чисел. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Первое число.\\
+\hline
+{\em b} & Второе число.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Произведение двух чисел.
+\end{DoxyReturn}
+\Hypertarget{class_math_helper_ab320ca1cc61cd21c8984520786949326}\index{MathHelper@{MathHelper}!Power@{Power}}
+\index{Power@{Power}!MathHelper@{MathHelper}}
+\doxysubsubsection{\texorpdfstring{Power()}{Power()}}
+{\footnotesize\ttfamily \label{class_math_helper_ab320ca1cc61cd21c8984520786949326} 
+double Math\+Helper.\+Power (\begin{DoxyParamCaption}\item[{double}]{base\+Number}{, }\item[{int}]{exponent}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Возводит число в степень. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em base\+Number} & Основание степени.\\
+\hline
+{\em exponent} & Показатель степени.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Результат возведения в степень.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Out\+Of\+Range\+Exception} & Если показатель степени меньше 0.\\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{class_math_helper_a94519cf680907e09f57535d28043b353}\index{MathHelper@{MathHelper}!Subtract@{Subtract}}
+\index{Subtract@{Subtract}!MathHelper@{MathHelper}}
+\doxysubsubsection{\texorpdfstring{Subtract()}{Subtract()}}
+{\footnotesize\ttfamily \label{class_math_helper_a94519cf680907e09f57535d28043b353} 
+int Math\+Helper.\+Subtract (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Вычисляет разность двух целых чисел. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Первое число.\\
+\hline
+{\em b} & Второе число.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Разность двух чисел.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Lab9/\mbox{\hyperlink{_math_helper_8cs}{Math\+Helper.\+cs}}\end{DoxyCompactItemize}
